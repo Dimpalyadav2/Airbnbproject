@@ -67,6 +67,8 @@ const sessionOptions = {
   },
 };
 
+console.log("Mapbox Token:", process.env.MAP_TOKEN);
+
 //app.get("/", (req, res) => {
  // res.send("Hi, I am root");
 //});
